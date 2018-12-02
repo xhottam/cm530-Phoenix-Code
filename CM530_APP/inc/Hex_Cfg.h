@@ -25,8 +25,11 @@
 
 // Define other optional compnents to be included or not...
 //#define PHANTOMX_V2     // Some code may depend on it being a V2 PhantomX
-#define cFemurHornOffset1 -35 // -50 //-40 //-35 // 70
-#define cTibiaHornOffset1  125//160// 350 //463 //380 //463//200
+//#define cFemurHornOffset1 -35 // -50 //-40 //-35 // 70
+//#define cTibiaHornOffset1  125//200 //463
+
+#define cFemurHornOffset1 -150
+#define cTibiaHornOffset1  200
 
 #define cRRTibiaInv 0 
 #define cRMTibiaInv 0 
@@ -97,44 +100,44 @@
 //[MIN/MAX ANGLES] - Start off assume same as Phoenix...
 #define cRRCoxaMin1    -750
 #define cRRCoxaMax1    750
-#define cRRFemurMin1    -1000
-#define cRRFemurMax1    1000
-#define cRRTibiaMin1    -1100
+#define cRRFemurMin1    -900
+#define cRRFemurMax1    900
+#define cRRTibiaMin1    -1020
 #define cRRTibiaMax1    670
 
 #define cRMCoxaMin1    -750    //Mechanical limits of the Right Middle Leg, decimals = 1
 #define cRMCoxaMax1     750
-#define cRMFemurMin1     -1000
-#define cRMFemurMax1     1000
-#define cRMTibiaMin1    -1100
+#define cRMFemurMin1     -900
+#define cRMFemurMax1     900
+#define cRMTibiaMin1    -1020
 #define cRMTibiaMax1     670
 
 #define cRFCoxaMin1    -750    //Mechanical limits of the Right Front Leg, decimals = 1
 #define cRFCoxaMax1     750
-#define cRFFemurMin1    -1000
-#define cRFFemurMax1    1000
-#define cRFTibiaMin1    -1100
+#define cRFFemurMin1    -900
+#define cRFFemurMax1    900
+#define cRFTibiaMin1    -1020
 #define cRFTibiaMax1    670
 
 #define cLRCoxaMin1    -750    //Mechanical limits of the Left Rear Leg, decimals = 1
 #define cLRCoxaMax1     750
-#define cLRFemurMin1     -1000
-#define cLRFemurMax1     1000
-#define cLRTibiaMin1    -1100
+#define cLRFemurMin1     -900
+#define cLRFemurMax1     900
+#define cLRTibiaMin1    -1020
 #define cLRTibiaMax1     670
 
 #define cLMCoxaMin1    -750    //Mechanical limits of the Left Middle Leg, decimals = 1
 #define cLMCoxaMax1     750
-#define cLMFemurMin1     -1000
-#define cLMFemurMax1     1000
-#define cLMTibiaMin1    -1100
+#define cLMFemurMin1     -900
+#define cLMFemurMax1     900
+#define cLMTibiaMin1    -1020
 #define cLMTibiaMax1     670
 
 #define cLFCoxaMin1     -750    //Mechanical limits of the Left Front Leg, decimals = 1
 #define cLFCoxaMax1     750
-#define cLFFemurMin1     -1000
-#define cLFFemurMax1     1000
-#define cLFTibiaMin1    -1100
+#define cLFFemurMin1     -900
+#define cLFFemurMax1     900
+#define cLFTibiaMin1    -1020
 #define cLFTibiaMax1     670
 
 #ifdef OPT_WALK_UPSIDE_DOWN
@@ -217,8 +220,8 @@
 //[LEG DIMENSIONS]
 //Universal dimensions for each leg in mm
 #define cXXCoxaLength     52   // PhantomX leg dimensions.
-#define cXXFemurLength    66 //66   //82   MEASURE THIS!!! Guessed now :-)
-#define cXXTibiaLength    118 //135 //133  //140 //132 //130 //127  MEASURE THIS!!! Guessed now :-)
+#define cXXFemurLength    66 //66  MEASURE THIS!!! Guessed now :-)
+#define cXXTibiaLength    113// 118  MEASURE THIS!!! Guessed now :-)
 
 #define cRRCoxaLength     cXXCoxaLength	    //Right Rear leg
 #define cRRFemurLength    cXXFemurLength
